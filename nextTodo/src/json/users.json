@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "email": "john@gmail.com",
+        "password": "password123",
+        "name": "John Doe",
+        "notes": [
+            {
+                "id": "697e50a6-02b8-40f2-bfe0-a9d2464ace27",
+                "title": "React",
+                "description": "React websites are amazing",
+                "date": "Sun Jun 04 2023"
+            },
+            {
+                "id": "d226bf31-0ac7-4895-badf-4028671008c4",
+                "title": "Android Development",
+                "description": "android using kotlin",
+                "date": "Sun Jun 04 2023"
+            },
+            {
+                "id": "75d3ee71-be33-4758-a5a1-34b945b4d9ab",
+                "title": "Javascript programming",
+                "description": "Do the javascript programming",
+                "date": "Sun Jun 04 2023"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "email": "jane@gmail.com",
+        "password": "password456",
+        "name": "Jane Smith",
+        "notes": [
+            {
+                "id": "26e3c7cc-2372-4b05-9cf3-1365c28d9f92",
+                "title": "Flutter",
+                "description": "A good and efficient solution for app development",
+                "date": "Sun Jun 04 2023"
+            },
+            {
+                "id": "a57e396f-80a4-45a3-99d3-dc74c7186c53",
+                "title": "Kotlin",
+                "description": "Learn kotlin\n",
+                "date": "Sun Jun 04 2023"
+            }
+        ]
+    }
+]
