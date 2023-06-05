@@ -28,6 +28,8 @@ export async function POST(req) {
 const filepath2 = path.join(process.cwd(), 'src','json', 'users.json');
 if (fs.existsSync(filepath2)) {
   console.log('File exists');
+	const data = fs.readFileSync(filepath2, 'utf-8')
+console.log(data)
 } else {
   console.log('File does not exist');
 }
