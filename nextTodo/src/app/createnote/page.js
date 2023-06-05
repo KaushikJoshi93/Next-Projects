@@ -15,7 +15,7 @@ const Page = () => {
         if (!(data.title == "" || data.description == "")) {
             let currentDate = new Date(Date.now()).toDateString();
             setData({...data , "date":currentDate})
-            const res = await fetch("http://localhost:3000/api/notes/createnote", {
+            const res = await fetch(`/api/notes/createnote`, {
                 method: "POST",
                 headers: {
                     'Authorization': `Bearer ${session.data.user.token}`,
