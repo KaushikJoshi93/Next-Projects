@@ -26,7 +26,7 @@ export async function POST(req) {
   } catch (error) {
     // Handle any errors
 const filepath2 = path.join(process.cwd(), 'src','json', 'users.json');
-if (fs.existsSync(filePath2)) {
+if (fs.existsSync(filepath2)) {
   console.log('File exists');
 } else {
   console.log('File does not exist');
