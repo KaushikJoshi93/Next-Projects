@@ -25,7 +25,7 @@ export async function POST(req) {
     }
   } catch (error) {
     // Handle any errors
-    console.error(error);
+    console.error(error+ "    "+process.cwd());
     return new Response(JSON.stringify(null));
   }
 }
