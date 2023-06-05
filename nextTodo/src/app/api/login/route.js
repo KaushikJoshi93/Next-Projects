@@ -6,7 +6,7 @@ export async function POST(req) {
   try {
     const { email, password } = await req.json();
 	console.log(process.cwd()+"");
-    const filepath = path.join(process.cwd(), 'src/json', 'users.json');
+    const filepath = path.join(process.cwd(), 'src','json', 'users.json');
     const userData = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
 
     // Find the user credentials in the JSON data
