@@ -4,7 +4,8 @@ import { getJWTtoken } from '@/lib/jwt';
 
 export async function POST(req) {
   try {
-    const { email, password } = await req.json();
+    const reqBody = await req.json();
+	const {email,password} = reqBody;
 	console.log(process.cwd()+"");
     const filepath = path.join(process.cwd(), 'src','json', 'users.json');
     const userData = JSON.parse(fs.readFileSync(filepath, 'utf-8'));
